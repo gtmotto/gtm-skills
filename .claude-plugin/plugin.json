@@ -1,0 +1,24 @@
+{
+  "name": "gtm-skills",
+  "displayName": "gtmotto GTM skills",
+  "description": "Free LinkedIn prospecting playbooks for Claude: find buyers in LinkedIn comments, turn an ICP into a search, prospect on hiring signals, stay inside LinkedIn's limits, write comments and invite notes that get replies. Each one runs daily when the gtmotto MCP is connected.",
+  "version": "0.1.0",
+  "author": {
+    "name": "gtmotto"
+  },
+  "homepage": "https://gtmotto.com",
+  "repository": "https://github.com/gtmotto/gtm-skills",
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "prospecting",
+    "outbound",
+    "gtm",
+    "sales",
+    "mcp",
+    "icp",
+    "lead-generation"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

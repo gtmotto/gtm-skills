@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gtmotto": {
+      "type": "http",
+      "url": "https://agent.gtmotto.com/mcp"
+    }
+  }
+}

@@ -1,22 +1,16 @@
 # Changelog
 
-All notable changes to this repository are recorded here. The MCP server itself
-is versioned in `server.json`; the Claude Code plugin in
-`plugins/gtm-otto/.claude-plugin/plugin.json`.
+## 0.1.0
 
-## 1.2.0 (2026-09-17)
+First public set. Eight skills:
 
-First public release of `gtmotto/gtm-skills`.
+- `find-buyers-in-linkedin-comments`
+- `icp-to-linkedin-search`
+- `hiring-signal-prospecting`
+- `linkedin-limits-and-safety`
+- `linkedin-comment-and-invite-writer`
+- `launch-a-play`
+- `instantly-to-linkedin`
+- `weekly-play-review`
 
-- `server.json` for the official MCP Registry: `com.gtmotto/gtmotto`, Streamable
-  HTTP at `https://agent.gtmotto.com/mcp`, OAuth by default with an optional
-  `Authorization: Bearer gtm_sk_...` header for scripts.
-- Claude Code plugin marketplace (`/plugin marketplace add gtmotto/gtm-skills`) with one
-  plugin, `gtm-otto`, that connects the server and ships six skills:
-  `launch-a-play`, `post-discovery`, `weekly-play-review`, `instantly-to-linkedin`,
-  `heyreach-migration`, `linkedin-safety-check`.
-- `docs/tools.md`: the 21 tools with scope, one-liner and arguments.
-- `docs/onboarding.md`: the ideal first conversation, from an empty client to a
-  live play on your own LinkedIn.
-- README with per-client install (Claude web and desktop, Claude Code, Cursor
-  deeplink, ChatGPT, any Streamable HTTP client).
+Plus the gtmotto MCP registration (`.mcp.json`) and the Claude Code plugin manifests.
