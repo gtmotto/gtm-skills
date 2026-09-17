@@ -92,7 +92,7 @@ The `gtm-otto` plugin connects the server and adds six skills that turn a senten
 into a running play:
 
 ```
-/plugin marketplace add gtmotto/mcp
+/plugin marketplace add gtmotto/gtm-skills
 /plugin install gtm-otto@gtmotto
 ```
 

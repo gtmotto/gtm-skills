@@ -7,7 +7,7 @@
     "url": "https://gtmotto.com"
   },
   "homepage": "https://gtmotto.com/docs/mcp",
-  "repository": "https://github.com/gtmotto/mcp",
+  "repository": "https://github.com/gtmotto/gtm-skills",
   "license": "MIT",
   "keywords": ["linkedin", "prospecting", "outbound", "gtm", "mcp", "sales"],
   "mcpServers": {

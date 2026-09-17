@@ -6,12 +6,12 @@ is versioned in `server.json`; the Claude Code plugin in
 
 ## 1.2.0 (2026-09-17)
 
-First public release of `gtmotto/mcp`.
+First public release of `gtmotto/gtm-skills`.
 
 - `server.json` for the official MCP Registry: `com.gtmotto/gtmotto`, Streamable
   HTTP at `https://agent.gtmotto.com/mcp`, OAuth by default with an optional
   `Authorization: Bearer gtm_sk_...` header for scripts.
-- Claude Code plugin marketplace (`/plugin marketplace add gtmotto/mcp`) with one
+- Claude Code plugin marketplace (`/plugin marketplace add gtmotto/gtm-skills`) with one
   plugin, `gtm-otto`, that connects the server and ships six skills:
   `launch-a-play`, `post-discovery`, `weekly-play-review`, `instantly-to-linkedin`,
   `heyreach-migration`, `linkedin-safety-check`.
